@@ -1,0 +1,69 @@
+"Net generation for conventional hydroelectric"
+"https://www.eia.gov/electricity/data/browser/#/topic/0?agg=1,2,0&fuel=04&geo=g0fvvvvvvvvvo&sec=g&freq=A&start=2001&end=2019&ctype=linechart&ltype=sourcekey&rtype=s&maptype=0&rse=0&pin="
+"Sat Oct 10 2020 12:33:34 GMT-0400 (Eastern Daylight Time)"
+"Source: U.S. Energy Information Administration"
+"description","units","source key","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"
+"Net generation for conventional hydroelectric","thousand megawatthours",,,,,,,,,,,,,,,,,,,,
+"All sectors","thousand megawatthours","ELEC.GEN.HYC-US-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : United States","thousand megawatthours","ELEC.GEN.HYC-US-99.A",216961,264329,275806,268417,270321,289246,247510,254831,273445,260203,319355,276240,268565,259367,249080,267812,300333,292524,273707
+"All sectors : New England",,"ELEC.GEN.HYC-NEW-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Connecticut","thousand megawatthours","ELEC.GEN.HYC-CT-99.A",286,335,564,463,478,544,363,556,510,391,567,312,402,434,302,224,332,555,522
+"All sectors : Maine","thousand megawatthours","ELEC.GEN.HYC-ME-99.A",2645,2768,3173,3430,4091,4278,3738,4457,4212,3810,3979,3733,3560,3623,3361,3000,3389,3261,3115
+"All sectors : Massachusetts","thousand megawatthours","ELEC.GEN.HYC-MA-99.A",703,875,1075,998,1042,1513,797,1156,1201,996,1149,912,992,902,827,713,1037,1134,1079
+"All sectors : New Hampshire","thousand megawatthours","ELEC.GEN.HYC-NH-99.A",991,1141,1331,1316,1799,1529,1265,1633,1680,1478,1605,1247,1427,1381,1270,1145,1413,1355,1233
+"All sectors : Rhode Island","thousand megawatthours","ELEC.GEN.HYC-RI-99.A",3,4,6,5,7,6,4,5,5,4,7,4,4,4,3,2,2,4,4
+"All sectors : Vermont","thousand megawatthours","ELEC.GEN.HYC-VT-99.A",884,1115,1154,1187,1211,1519,647,1493,1486,1347,1425,1151,1286,1175,1139,1078,1280,1268,1198
+"All sectors : Middle Atlantic",,"ELEC.GEN.HYC-MAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : New Jersey","thousand megawatthours","ELEC.GEN.HYC-NJ-99.A",18,12,39,38,31,35,21,26,32,18,24,11,18,17,10,9,14,36,26
+"All sectors : New York","thousand megawatthours","ELEC.GEN.HYC-NY-99.A",23084,25048,24269,23990,25783,27345,25253,26723,27615,25472,27997,24652,24973,26087,26015,26888,30145,29630,29541
+"All sectors : Pennsylvania","thousand megawatthours","ELEC.GEN.HYC-PA-99.A",1650,2211,3346,3155,2232,2844,2236,2549,2683,2332,3217,2242,2525,2641,2604,2375,3123,4262,4040
+"All sectors : East North Central",,"ELEC.GEN.HYC-ENC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Illinois","thousand megawatthours","ELEC.GEN.HYC-IL-99.A",144,129,139,154,129,173,154,139,136,119,140,111,120,132,124,133,125,147,131
+"All sectors : Indiana","thousand megawatthours","ELEC.GEN.HYC-IN-99.A",571,411,424,444,438,490,450,437,503,454,409,434,387,371,381,426,306,223,194
+"All sectors : Michigan","thousand megawatthours","ELEC.GEN.HYC-MI-99.A",1562,1669,1386,1540,1462,1520,1270,1364,1372,1251,1357,1207,1419,1600,1499,1564,1679,1569,1291
+"All sectors : Ohio","thousand megawatthours","ELEC.GEN.HYC-OH-99.A",511,488,511,730,516,632,410,386,528,429,384,414,549,478,457,500,277,244,255
+"All sectors : Wisconsin","thousand megawatthours","ELEC.GEN.HYC-WI-99.A",2056,2515,1843,1981,1740,1679,1516,1616,1394,2112,2147,1530,1979,2472,2341,2795,2657,2392,1993
+"All sectors : West North Central",,"ELEC.GEN.HYC-WNC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Iowa","thousand megawatthours","ELEC.GEN.HYC-IA-99.A",845,946,789,946,960,909,962,819,971,948,925,766,749,879,960,917,1034,925,749
+"All sectors : Kansas","thousand megawatthours","ELEC.GEN.HYC-KS-99.A",26,13,12,13,11,10,11,11,13,13,15,10,15,16,19,31,29,26,20
+"All sectors : Minnesota","thousand megawatthours","ELEC.GEN.HYC-MN-99.A",832,809,815,738,775,572,654,727,809,840,746,561,511,548,849,1209,1258,1054,887
+"All sectors : Missouri","thousand megawatthours","ELEC.GEN.HYC-MO-99.A",1104,1357,652,1480,1159,199,1204,2047,1817,1539,1185,714,1136,697,1595,1268,1182,828,764
+"All sectors : Nebraska","thousand megawatthours","ELEC.GEN.HYC-NE-99.A",1124,1097,980,913,871,893,347,346,434,1314,1617,1257,1124,1158,1685,856,1489,1382,1160
+"All sectors : North Dakota","thousand megawatthours","ELEC.GEN.HYC-ND-99.A",1332,1593,1724,1546,1342,1521,1305,1253,1475,2042,2580,2477,1852,2531,2094,1912,2582,3180,2801
+"All sectors : South Dakota","thousand megawatthours","ELEC.GEN.HYC-SD-99.A",3432,4354,4276,3598,3075,3397,2917,2993,4432,5239,6608,5981,4063,5498,4850,4806,5256,6266,5620
+"All sectors : South Atlantic",,"ELEC.GEN.HYC-SAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Delaware","thousand megawatthours","ELEC.GEN.HYC-DE-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : District Of Columbia","thousand megawatthours","ELEC.GEN.HYC-DC-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Florida","thousand megawatthours","ELEC.GEN.HYC-FL-99.A",148,184,263,265,266,203,154,206,208,177,182,151,254,211,244,175,218,233,220
+"All sectors : Georgia","thousand megawatthours","ELEC.GEN.HYC-GA-99.A",2596,2716,4140,3692,4032,2569,2236,2145,3260,3322,2705,2236,3714,3064,2984,3373,2410,3697,3485
+"All sectors : Maryland","thousand megawatthours","ELEC.GEN.HYC-MD-99.A",1184,1661,2647,2508,1704,2104,1652,1974,1889,1667,2547,1657,1727,1616,1623,1392,1965,2831,2205
+"All sectors : North Carolina","thousand megawatthours","ELEC.GEN.HYC-NC-99.A",2596,3492,7201,5435,5397,3839,2984,3034,5171,4757,3893,3728,6901,4756,4742,4417,3818,6605,6207
+"All sectors : South Carolina","thousand megawatthours","ELEC.GEN.HYC-SC-99.A",1225,1390,3665,2447,2938,1807,1556,1123,2332,2376,1554,1420,3160,2569,2564,2226,1835,3014,2836
+"All sectors : Virginia","thousand megawatthours","ELEC.GEN.HYC-VA-99.A",1014,868,1782,1583,1484,1351,1248,1011,1479,1500,1210,1044,1254,955,1158,1471,1116,1765,1551
+"All sectors : West Virginia","thousand megawatthours","ELEC.GEN.HYC-WV-99.A",952,1066,1356,1318,1448,1572,1254,1248,1646,1367,1453,1431,1739,1242,1385,1638,1658,1848,1776
+"All sectors : East South Central",,"ELEC.GEN.HYC-ESC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alabama","thousand megawatthours","ELEC.GEN.HYC-AL-99.A",8356,8825,12665,10626,10145,7252,4136,6136,12535,8704,8884,7435,12899,9467,9862,6985,9237,11143,10839
+"All sectors : Kentucky","thousand megawatthours","ELEC.GEN.HYC-KY-99.A",3856,4025,3948,3780,2961,2592,1669,1917,3318,2580,2969,2362,3275,3144,3403,3478,4506,4418,4007
+"All sectors : Mississippi","thousand megawatthours","ELEC.GEN.HYC-MS-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Tennessee","thousand megawatthours","ELEC.GEN.HYC-TN-99.A",6947,7974,12004,10408,9310,7749,4940,5646,10212,8138,9576,8296,12443,8901,9581,6774,8691,10293,9857
+"All sectors : West South Central",,"ELEC.GEN.HYC-WSC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arkansas","thousand megawatthours","ELEC.GEN.HYC-AR-99.A",2548,3436,2655,3643,3083,1551,3237,4660,4193,3659,2958,2198,2655,2640,3569,3570,2943,3009,2719
+"All sectors : Louisiana","thousand megawatthours","ELEC.GEN.HYC-LA-99.A",732,891,892,1099,811,713,827,1064,1236,1109,1044,680,1045,1090,999,1103,906,1180,1147
+"All sectors : Oklahoma","thousand megawatthours","ELEC.GEN.HYC-OK-99.A",2345,1988,1798,2977,2630,624,3066,3811,3553,2809,1507,1146,2178,1428,2664,2573,2036,2035,1824
+"All sectors : Texas","thousand megawatthours","ELEC.GEN.HYC-TX-99.A",1200,1123,897,1301,1333,662,1644,1039,1029,1262,563,584,480,386,956,1342,1062,1126,998
+"All sectors : Mountain",,"ELEC.GEN.HYC-MTN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arizona","thousand megawatthours","ELEC.GEN.HYC-AZ-99.A",7624,7427,7075,6973,6410,6793,6598,7286,6427,6622,9174,6717,5915,6118,6536,7168,6832,6982,6096
+"All sectors : Colorado","thousand megawatthours","ELEC.GEN.HYC-CO-99.A",1495,1209,1262,1195,1415,1791,1730,2039,1886,1578,2083,1497,1213,1770,1620,1903,1897,1825,1607
+"All sectors : Idaho","thousand megawatthours","ELEC.GEN.HYC-ID-99.A",7223,8769,8354,8462,8542,11242,9022,9363,10434,9154,13405,10940,8473,9002,8757,9033,10670,11024,9112
+"All sectors : Montana","thousand megawatthours","ELEC.GEN.HYC-MT-99.A",6613,9567,8702,8856,9587,10130,9364,10000,9506,9415,12596,11283,9638,11483,9888,10083,10946,11405,9409
+"All sectors : Nevada","thousand megawatthours","ELEC.GEN.HYC-NV-99.A",2514,2268,1757,1615,1702,2058,2003,1751,2461,2157,2191,2440,2682,2389,2264,1789,1813,1881,2233
+"All sectors : New Mexico","thousand megawatthours","ELEC.GEN.HYC-NM-99.A",237,265,171,139,165,198,268,312,271,217,195,223,92,98,99,148,193,150,133
+"All sectors : Utah","thousand megawatthours","ELEC.GEN.HYC-UT-99.A",508,458,421,450,784,747,539,668,835,696,1230,748,505,633,769,760,1294,927,781
+"All sectors : Wyoming","thousand megawatthours","ELEC.GEN.HYC-WY-99.A",879,584,594,593,808,843,729,835,967,1024,1224,893,711,869,868,973,1124,976,820
+"All sectors : Pacific Contiguous",,"ELEC.GEN.HYC-PCC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : California","thousand megawatthours","ELEC.GEN.HYC-CA-99.A",25542,31141,36371,34141,39632,48047,27328,24128,27888,33431,42557,26837,23755,16531,13808,28942,42363,26331,40051
+"All sectors : Oregon","thousand megawatthours","ELEC.GEN.HYC-OR-99.A",28645,34413,33250,33081,30948,37850,33587,33805,33034,30542,42315,39410,33098,35262,31254,34549,38294,35443,29526
+"All sectors : Washington","thousand megawatthours","ELEC.GEN.HYC-WA-99.A",54734,78167,71757,71576,72075,82008,78829,77637,72933,68288,91818,89464,78155,79463,73405,78346,82183,80883,66181
+"All sectors : Pacific Noncontiguous",,"ELEC.GEN.HYC-PCN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alaska","thousand megawatthours","ELEC.GEN.HYC-AK-99.A",1346,1439,1583,1498,1464,1224,1291,1172,1324,1433,1345,1575,1435,1539,1569,1659,1644,1664,1398
+"All sectors : Hawaii","thousand megawatthours","ELEC.GEN.HYC-HI-99.A",101,95,91,94,96,120,92,84,113,70,93,115,78,94,121,91,66,97,70

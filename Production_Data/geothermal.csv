@@ -1,0 +1,69 @@
+"Net generation for geothermal"
+"https://www.eia.gov/electricity/data/browser/#/topic/0?agg=1,2,0&fuel=001&geo=g0fvvvvvvvvvo&sec=g&freq=A&start=2001&end=2019&ctype=linechart&ltype=sourcekey&rtype=s&maptype=0&rse=0&pin="
+"Sat Oct 10 2020 12:36:20 GMT-0400 (Eastern Daylight Time)"
+"Source: U.S. Energy Information Administration"
+"description","units","source key","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"
+"Net generation for geothermal","thousand megawatthours",,,,,,,,,,,,,,,,,,,,
+"All sectors","thousand megawatthours","ELEC.GEN.GEO-US-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : United States","thousand megawatthours","ELEC.GEN.GEO-US-99.A",13741,14491,14424,14811,14692,14568,14637,14840,15009,15219,15316,15562,15775,15877,15918,15826,15927,15967,16011
+"All sectors : New England",,"ELEC.GEN.GEO-NEW-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Connecticut","thousand megawatthours","ELEC.GEN.GEO-CT-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Maine","thousand megawatthours","ELEC.GEN.GEO-ME-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Massachusetts","thousand megawatthours","ELEC.GEN.GEO-MA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : New Hampshire","thousand megawatthours","ELEC.GEN.GEO-NH-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Rhode Island","thousand megawatthours","ELEC.GEN.GEO-RI-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Vermont","thousand megawatthours","ELEC.GEN.GEO-VT-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Middle Atlantic",,"ELEC.GEN.GEO-MAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : New Jersey","thousand megawatthours","ELEC.GEN.GEO-NJ-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : New York","thousand megawatthours","ELEC.GEN.GEO-NY-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Pennsylvania","thousand megawatthours","ELEC.GEN.GEO-PA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : East North Central",,"ELEC.GEN.GEO-ENC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Illinois","thousand megawatthours","ELEC.GEN.GEO-IL-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Indiana","thousand megawatthours","ELEC.GEN.GEO-IN-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Michigan","thousand megawatthours","ELEC.GEN.GEO-MI-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Ohio","thousand megawatthours","ELEC.GEN.GEO-OH-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Wisconsin","thousand megawatthours","ELEC.GEN.GEO-WI-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : West North Central",,"ELEC.GEN.GEO-WNC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Iowa","thousand megawatthours","ELEC.GEN.GEO-IA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Kansas","thousand megawatthours","ELEC.GEN.GEO-KS-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Minnesota","thousand megawatthours","ELEC.GEN.GEO-MN-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Missouri","thousand megawatthours","ELEC.GEN.GEO-MO-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Nebraska","thousand megawatthours","ELEC.GEN.GEO-NE-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : North Dakota","thousand megawatthours","ELEC.GEN.GEO-ND-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : South Dakota","thousand megawatthours","ELEC.GEN.GEO-SD-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : South Atlantic",,"ELEC.GEN.GEO-SAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Delaware","thousand megawatthours","ELEC.GEN.GEO-DE-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : District Of Columbia","thousand megawatthours","ELEC.GEN.GEO-DC-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Florida","thousand megawatthours","ELEC.GEN.GEO-FL-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Georgia","thousand megawatthours","ELEC.GEN.GEO-GA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Maryland","thousand megawatthours","ELEC.GEN.GEO-MD-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : North Carolina","thousand megawatthours","ELEC.GEN.GEO-NC-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : South Carolina","thousand megawatthours","ELEC.GEN.GEO-SC-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Virginia","thousand megawatthours","ELEC.GEN.GEO-VA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : West Virginia","thousand megawatthours","ELEC.GEN.GEO-WV-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : East South Central",,"ELEC.GEN.GEO-ESC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alabama","thousand megawatthours","ELEC.GEN.GEO-AL-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Kentucky","thousand megawatthours","ELEC.GEN.GEO-KY-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Mississippi","thousand megawatthours","ELEC.GEN.GEO-MS-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Tennessee","thousand megawatthours","ELEC.GEN.GEO-TN-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : West South Central",,"ELEC.GEN.GEO-WSC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arkansas","thousand megawatthours","ELEC.GEN.GEO-AR-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Louisiana","thousand megawatthours","ELEC.GEN.GEO-LA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Oklahoma","thousand megawatthours","ELEC.GEN.GEO-OK-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Texas","thousand megawatthours","ELEC.GEN.GEO-TX-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Mountain",,"ELEC.GEN.GEO-MTN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arizona","thousand megawatthours","ELEC.GEN.GEO-AZ-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Colorado","thousand megawatthours","ELEC.GEN.GEO-CO-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Idaho","thousand megawatthours","ELEC.GEN.GEO-ID-99.A","--","--","--","--","--","--","--",86,76,72,63,75,40,79,76,72,84,83,73
+"All sectors : Montana","thousand megawatthours","ELEC.GEN.GEO-MT-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Nevada","thousand megawatthours","ELEC.GEN.GEO-NV-99.A",1200,1127,1066,1298,1263,1344,1253,1383,1633,2070,2146,2347,2670,2729,3111,3353,3292,3462,3768
+"All sectors : New Mexico","thousand megawatthours","ELEC.GEN.GEO-NM-99.A","--","--","--","--","--","--","--","--","--","--","--","--",0,9,10,14,13,13,58
+"All sectors : Utah","thousand megawatthours","ELEC.GEN.GEO-UT-99.A",153,218,198,195,185,191,164,254,279,277,330,335,319,522,430,485,481,446,445
+"All sectors : Wyoming","thousand megawatthours","ELEC.GEN.GEO-WY-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Pacific Contiguous",,"ELEC.GEN.GEO-PCC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : California","thousand megawatthours","ELEC.GEN.GEO-CA-99.A",12181,13074,12982,13105,13023,12821,12991,12883,12853,12600,12552,12519,12307,12102,11883,11457,11560,11677,11407
+"All sectors : Oregon","thousand megawatthours","ELEC.GEN.GEO-OR-99.A","--","--","--","--","--","--","--","--","--","--","--",26,165,183,179,184,174,176,152
+"All sectors : Washington","thousand megawatthours","ELEC.GEN.GEO-WA-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Pacific Noncontiguous",,"ELEC.GEN.GEO-PCN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alaska","thousand megawatthours","ELEC.GEN.GEO-AK-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Hawaii","thousand megawatthours","ELEC.GEN.GEO-HI-99.A",207,73,178,213,222,212,230,234,168,201,224,261,275,254,230,260,323,110,108

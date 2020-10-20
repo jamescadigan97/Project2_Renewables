@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Solar</title>
+
+        <!-- Google Font -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet"> -->
+
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+
+        <!-- Our CSS  -->
+        <link rel="stylesheet" href="../static/css/style.css" />
+        <link rel="stylesheet" href="./style.css" />
+
+        <title>Solar</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="https://kit.fontawesome.com/76c400baa8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="dropdown-item" href="/solar">
+            solar
+            <i class="fas fa-sun"></i>
+          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="/hydro">
+            hydroelectric
+            <i class="fas fa-water"></i>
+          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="/location">
+            location
+            <i class="fas fa-map-marker"></i>
+          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="/wind">
+            wind
+            <i class="fas fa-wind"></i>
+          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="/heatmap">
+            heatmap
+            <i class="fas  fas fa-thermometer-half"></i>
+          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="/sunburst">
+            sunburst
+            <i class="fas fa-meteor"></i>
+          </a>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- The div that holds our map -->
+        <div id="map"></div>
+
+        <!-- API Key -->
+        <script type="text/javascript" src="../static/js/config.js"></script>
+
+        <!-- D3 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+        <!-- MomentJS -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+
+        <!-- Leaflet JavaScript -->
+        <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
+
+
+        <!-- Our JavaScript -->
+        <script type="text/javascript" src="../static/js/location.js"></script>
+
+        <!-- <script type="text/javascript" src="../static/js/heatmap.js"></script> -->
+
+        <!-- Leaflet heatmap plugin-->
+        <script type="text/javascript" src="../static/js/leaflet-heat.js"></script>
+
+    </body>
+
+</html>

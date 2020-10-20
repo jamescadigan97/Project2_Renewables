@@ -1,0 +1,69 @@
+"Net generation for biomass"
+"https://www.eia.gov/electricity/data/browser/#/topic/0?agg=1,2,0&fuel=0008&geo=g0fvvvvvvvvvo&sec=g&freq=A&start=2001&end=2019&ctype=linechart&ltype=sourcekey&rtype=s&maptype=0&rse=0&pin="
+"Sat Oct 10 2020 12:38:26 GMT-0400 (Eastern Daylight Time)"
+"Source: U.S. Energy Information Administration"
+"description","units","source key","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019"
+"Net generation for biomass","thousand megawatthours",,,,,,,,,,,,,,,,,,,,
+"All sectors","thousand megawatthours","ELEC.GEN.BIO-US-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : United States","thousand megawatthours","ELEC.GEN.BIO-US-99.A",49748,53709,53341,53537,54277,54861,55539,55034,54493,56089,56671,57622,60858,63989,63632,62760,62733,61832,58412
+"All sectors : New England",,"ELEC.GEN.BIO-NEW-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Connecticut","thousand megawatthours","ELEC.GEN.BIO-CT-99.A",909,821,786,758,753,763,730,734,759,740,660,667,652,757,787,856,792,756,763
+"All sectors : Maine","thousand megawatthours","ELEC.GEN.BIO-ME-99.A",3826,4044,3586,3598,4068,3968,4108,3926,3640,3653,3788,3778,3846,3394,3153,2788,2704,2662,2519
+"All sectors : Massachusetts","thousand megawatthours","ELEC.GEN.BIO-MA-99.A",1313,1272,1253,1230,1258,1279,1240,1252,1223,1251,1140,1158,1137,1199,1167,1204,1160,1169,1044
+"All sectors : New Hampshire","thousand megawatthours","ELEC.GEN.BIO-NH-99.A",1026,865,796,883,942,746,1123,1165,1135,1157,1025,1173,1306,1541,1624,1689,1610,1386,1392
+"All sectors : Rhode Island","thousand megawatthours","ELEC.GEN.BIO-RI-99.A",104,98,102,102,0,149,155,158,145,137,127,101,48,207,211,205,203,211,208
+"All sectors : Vermont","thousand megawatthours","ELEC.GEN.BIO-VT-99.A",370,356,394,393,410,439,453,415,417,468,398,353,491,453,465,477,448,426,424
+"All sectors : Middle Atlantic",,"ELEC.GEN.BIO-MAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : New Jersey","thousand megawatthours","ELEC.GEN.BIO-NJ-99.A",844,847,907,806,875,901,823,882,928,816,876,965,999,998,946,983,929,935,805
+"All sectors : New York","thousand megawatthours","ELEC.GEN.BIO-NY-99.A",1781,1726,1694,1795,1885,1941,1942,2068,2201,2218,2061,2148,2282,2408,2241,2244,2286,2142,1895
+"All sectors : Pennsylvania","thousand megawatthours","ELEC.GEN.BIO-PA-99.A",1885,2005,1986,1969,2045,2112,2076,2074,2274,2383,2281,2298,2339,2453,2404,2391,2438,2265,2098
+"All sectors : East North Central",,"ELEC.GEN.BIO-ENC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Illinois","thousand megawatthours","ELEC.GEN.BIO-IL-99.A",679,724,801,744,642,594,620,698,710,670,638,615,608,566,527,467,474,426,419
+"All sectors : Indiana","thousand megawatthours","ELEC.GEN.BIO-IN-99.A",115,116,119,137,68,220,231,273,303,312,336,336,376,391,446,433,473,460,410
+"All sectors : Michigan","thousand megawatthours","ELEC.GEN.BIO-MI-99.A",2361,2220,2495,2557,2492,2440,2414,2450,2323,2472,2506,2654,2715,2806,2485,2495,2494,2531,2369
+"All sectors : Ohio","thousand megawatthours","ELEC.GEN.BIO-OH-99.A",431,151,441,428,432,444,420,608,619,675,722,717,817,818,799,722,727,707,697
+"All sectors : Wisconsin","thousand megawatthours","ELEC.GEN.BIO-WI-99.A",1030,969,1128,1010,1089,1164,1220,1267,1288,1385,1577,1666,1634,1643,1571,1470,1460,1437,1358
+"All sectors : West North Central",,"ELEC.GEN.BIO-WNC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Iowa","thousand megawatthours","ELEC.GEN.BIO-IA-99.A",104,98,114,106,117,137,151,167,168,190,161,151,159,266,258,252,210,211,221
+"All sectors : Kansas","thousand megawatthours","ELEC.GEN.BIO-KS-99.A","--","--","--","--","--","--","--","--",0,54,59,57,58,59,62,59,57,64,61
+"All sectors : Minnesota","thousand megawatthours","ELEC.GEN.BIO-MN-99.A",1080,881,1143,985,1070,1004,1294,1496,1684,1848,1680,1838,1610,1763,1806,1892,1933,1645,1351
+"All sectors : Missouri","thousand megawatthours","ELEC.GEN.BIO-MO-99.A",9,9,8,10,9,24,29,43,75,62,62,54,74,116,129,139,144,133,108
+"All sectors : Nebraska","thousand megawatthours","ELEC.GEN.BIO-NE-99.A",17,13,56,40,43,52,61,61,66,72,65,63,67,64,71,98,97,93,79
+"All sectors : North Dakota","thousand megawatthours","ELEC.GEN.BIO-ND-99.A",8,0,1,6,10,4,14,13,12,12,10,6,5,3,4,6,2,1,3
+"All sectors : South Dakota","thousand megawatthours","ELEC.GEN.BIO-SD-99.A","--","--","--","--","--","--","--",2,6,0,0,0,0,0,0,0,0,0,0
+"All sectors : South Atlantic",,"ELEC.GEN.BIO-SAT-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Delaware","thousand megawatthours","ELEC.GEN.BIO-DE-99.A","--","--","--","--","--",0,48,163,126,136,145,105,57,76,76,68,63,59,52
+"All sectors : District Of Columbia","thousand megawatthours","ELEC.GEN.BIO-DC-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--",31,53,47,57,55
+"All sectors : Florida","thousand megawatthours","ELEC.GEN.BIO-FL-99.A",3790,3740,4474,4502,4327,4331,4303,4303,4331,4406,4544,4330,4449,4831,4919,4643,5009,5084,4497
+"All sectors : Georgia","thousand megawatthours","ELEC.GEN.BIO-GA-99.A",3003,6381,3173,3192,3272,3419,3415,2782,2825,3181,3190,3276,3825,4163,4734,4573,5018,4999,5154
+"All sectors : Maryland","thousand megawatthours","ELEC.GEN.BIO-MD-99.A",373,522,596,589,623,626,603,612,551,572,548,554,556,567,514,546,536,521,404
+"All sectors : North Carolina","thousand megawatthours","ELEC.GEN.BIO-NC-99.A",1751,1786,1976,1733,1807,1828,1672,1920,1889,2072,2328,2564,2610,2547,2589,2556,2812,2610,2525
+"All sectors : South Carolina","thousand megawatthours","ELEC.GEN.BIO-SC-99.A",894,1244,1296,1763,1814,1910,1996,1816,1748,1873,2129,2143,2226,2438,2289,2376,2400,2291,2418
+"All sectors : Virginia","thousand megawatthours","ELEC.GEN.BIO-VA-99.A",1747,2071,2261,2432,2498,2458,2566,2698,2418,2220,2196,2358,2906,3852,4144,4092,3809,4173,3803
+"All sectors : West Virginia","thousand megawatthours","ELEC.GEN.BIO-WV-99.A",16,6,4,2,1,0,0,-0,-1,0,9,11,4,5,5,5,"--","--",0
+"All sectors : East South Central",,"ELEC.GEN.BIO-ESC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alabama","thousand megawatthours","ELEC.GEN.BIO-AL-99.A",4189,3746,3673,3779,3647,3884,3801,3357,3050,2377,2817,2777,2876,2779,3289,3335,3426,3446,3462
+"All sectors : Kentucky","thousand megawatthours","ELEC.GEN.BIO-KY-99.A",10,365,299,411,421,459,466,460,364,440,436,333,327,448,441,465,495,431,435
+"All sectors : Mississippi","thousand megawatthours","ELEC.GEN.BIO-MS-99.A",1432,937,1022,1514,1522,1541,1493,1391,1424,1504,1506,1509,1448,1508,1507,1524,1477,1439,1421
+"All sectors : Tennessee","thousand megawatthours","ELEC.GEN.BIO-TN-99.A",822,796,826,826,763,756,921,915,899,947,967,777,1043,1062,1004,933,948,982,930
+"All sectors : West South Central",,"ELEC.GEN.BIO-WSC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arkansas","thousand megawatthours","ELEC.GEN.BIO-AR-99.A",1512,1585,1844,1810,1736,1723,1624,1513,1586,1624,1668,1660,1601,1530,1441,1370,1437,1366,1354
+"All sectors : Louisiana","thousand megawatthours","ELEC.GEN.BIO-LA-99.A",2704,2810,3078,2966,2887,2962,2980,2710,2364,2468,2443,2430,2787,2780,2705,2876,2739,2607,2206
+"All sectors : Oklahoma","thousand megawatthours","ELEC.GEN.BIO-OK-99.A",231,239,267,250,289,297,280,193,231,352,314,363,344,338,336,362,299,329,310
+"All sectors : Texas","thousand megawatthours","ELEC.GEN.BIO-TX-99.A",993,1319,1396,1109,1098,1148,1281,1414,1078,1445,1606,1684,1723,1808,1440,1683,1577,1590,1329
+"All sectors : Mountain",,"ELEC.GEN.BIO-MTN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Arizona","thousand megawatthours","ELEC.GEN.BIO-AZ-99.A",39,53,45,44,60,40,33,99,159,168,190,211,171,231,227,214,171,219,232
+"All sectors : Colorado","thousand megawatthours","ELEC.GEN.BIO-CO-99.A",64,30,31,35,34,31,31,45,57,60,62,58,84,126,81,162,166,164,162
+"All sectors : Idaho","thousand megawatthours","ELEC.GEN.BIO-ID-99.A",533,508,541,560,560,520,481,455,478,501,522,549,652,593,601,532,465,491,492
+"All sectors : Montana","thousand megawatthours","ELEC.GEN.BIO-MT-99.A",65,63,71,62,72,94,111,111,95,97,"--","--",5,13,21,20,21,21,20
+"All sectors : Nevada","thousand megawatthours","ELEC.GEN.BIO-NV-99.A","--","--","--","--","--","--","--","--",1,0,0,19,24,25,26,55,58,53,52
+"All sectors : New Mexico","thousand megawatthours","ELEC.GEN.BIO-NM-99.A",19,19,0,0,5,22,16,19,34,14,9,14,19,14,20,18,18,21,17
+"All sectors : Utah","thousand megawatthours","ELEC.GEN.BIO-UT-99.A",5,6,5,4,4,15,31,24,48,56,58,60,71,73,85,84,78,79,68
+"All sectors : Wyoming","thousand megawatthours","ELEC.GEN.BIO-WY-99.A","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--","--"
+"All sectors : Pacific Contiguous",,"ELEC.GEN.BIO-PCC-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : California","thousand megawatthours","ELEC.GEN.BIO-CA-99.A",5406,5976,6134,5989,5833,5717,5713,5846,6200,6002,6029,6311,6635,6891,6468,5939,5808,5946,5782
+"All sectors : Oregon","thousand megawatthours","ELEC.GEN.BIO-OR-99.A",751,673,639,496,866,898,981,848,803,837,714,832,994,1151,1116,1001,981,1037,1076
+"All sectors : Washington","thousand megawatthours","ELEC.GEN.BIO-WA-99.A",1221,1308,1525,1575,1615,1465,1293,1281,1472,1872,1751,1614,1817,1840,1991,2008,1899,1803,1602
+"All sectors : Pacific Noncontiguous",,"ELEC.GEN.BIO-PCN-99.A",,,,,,,,,,,,,,,,,,,
+"All sectors : Alaska","thousand megawatthours","ELEC.GEN.BIO-AK-99.A","--",12,6,9,5,7,10,5,7,6,3,3,52,63,55,43,44,45,39
+"All sectors : Hawaii","thousand megawatthours","ELEC.GEN.BIO-HI-99.A",288,297,347,329,310,326,285,302,284,283,313,281,329,334,321,359,293,306,290
