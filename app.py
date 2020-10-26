@@ -1,3 +1,4 @@
+#Import dependencies
 import os
 import pandas as pd
 import numpy as np
@@ -12,10 +13,8 @@ from flask_pymongo import PyMongo
 import renewable_scrape
 import json
 
+
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-#################################################
-# Database Setup
-#################################################
 engine = create_engine("sqlite:///project.sqlite")
 
 
@@ -27,58 +26,81 @@ Base.prepare(engine, reflect=True)
 # Save reference to the table
 Dataset = Base.classes.dataset
 
-
-#################################################
-# Flask Setup
-#################################################
+#Create Flask App
 app = Flask(__name__)
 
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+json_url = os.path.join(SITE_ROOT, "templates", "USA.geojson")
+heatmapdata = json.load(open(json_url))
 
-#################################################
-# Flask Routes
-#################################################
-
+#Connect to Mongo DB
+app.config["MONGO_URI"] = "mongodb://localhost:27017/renewables"
+mongo = PyMongo(app)
 
 @app.route("/") 
 def welcome():
+
     return render_template("index.html")
 
+#Create route for scrape
 @app.route("/scrape")
 def scrape():
-    renewable_scrape.renewable_scrape()
-    return redirect("/sunburst")
+    # Run the scrape function
+    renewable_data = renewable_scrape.renewable_scrape()
 
+    # Update the Mongo database using update and upsert=True
+    mongo.db.renewables.replace_one({}, renewable_data, upsert=True)
+    return redirect("/webscrape_sunburst")
+
+#Create route for hydro-electric energy production
 @app.route("/hydro")
 def hydro():
-    """Return dashboard.html."""
+
     return render_template("hydro.html")
 
+#Create route for wind energy production
 @app.route("/wind")
 def wind():
-    """Return dashboard.html."""
+
     return render_template("wind.html")
 
-
+#Create route for heatmap
 @app.route("/heatmap")
 def heatmap():
-    
+
     return render_template("heatmap.html")
 
+#Create route for solar energy production
 @app.route("/solar")
 def solar():
-    """Return dashboard.html."""
+
     return render_template("solar.html")
 
+#Create route for location
 @app.route("/location")
 def location():
-    """Return dashboard.html."""
+
     return render_template("location.html")
 
-@app.route("/sunburst")
-def sunburst():
-    data =  json.load(open("my_renewables.json","r")) 
-    return render_template("webscrape_sunburst.html",r_last_refresh=data["last_scrape"],renewable_title_0=data["articles "][0],renewable_link_0=data["links"][0],renewable_title_1=data["articles "][1],renewable_link_1=data["links"][2], renewable_title_2 = data["articles "][2],renewable_link_2=data["links"][4],renewable_title_3=data["articles "][3],renewable_link_3=data["links"][6])
+#Create route for webscrape and sunburst
+@app.route("/webscrape_sunburst")
+def webscrape_sunburst():
 
+    #Take one instance from the Mongo DB
+    data = mongo.db.renewables.find_one()
+
+    return render_template("Webscrape_sunburst.html",r_last_refresh=data["renewable_refresh"],renewable_title_0=data["renewable_titles"][0],renewable_link_0=data["renewable_links"][0],renewable_title_1=data["renewable_titles"][1],renewable_link_1=data["renewable_links"][2], renewable_title_2 = data["renewable_titles"][2],renewable_link_2=data["renewable_links"][4],renewable_title_3=data["renewable_titles"][3],renewable_link_3=data["renewable_links"][6])
+
+#Create route for heatmap
+@app.route("/api/heatmap")
+def heatmapgeojson():
+    return jsonify(data = heatmapdata)
+
+
+@app.route("/data")
+def data():
+    """Return dashboard.html."""
+    return render_template("data.html")
 
 
 if __name__ == '__main__':

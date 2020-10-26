@@ -7,38 +7,31 @@ from splinter import Browser
 from datetime import date
 from flask_pymongo import PyMongo
 import datetime
-import json
 
 renewables = { }
-now = datetime.datetime.now()
-print ("Current date and time : ")
-last_refresh = now.strftime("%Y-%m-%d %H:%M:%S")
-print(last_refresh)
-renewables.update({"renewable_refresh": last_refresh })
 
 def renewable_scrape():
+    #Launch chromedriver and visit page
     executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
     url = "https://www.renewableenergyworld.com"
-    #base_url = "https://www.renewableenergyworld.com"
     browser.visit(url)
-    #response4 = requests.get(url)
     html = browser.html
     soup = bs(html, 'html.parser')
     link_list = []
     title_list = []
     browser.visit(url)
 
-    renewables = {}
+    #Get current date and time
     now = datetime.datetime.now()
     print ("Current date and time : ")
     last_refresh = now.strftime("%Y-%m-%d %H:%M:%S")
 
-    ##This Line
+    #Upload to the MongoDB
     renewables.update({"renewable_refresh": last_refresh })
 
+    #Loop through pages to get articles and links
     for x in range (5):
-        #url = "https://www.renewableenergyworld.com"
         link_ = soup.findAll('article')
         link = link_[x].find('link').get('href')
         link_list.append(link)
@@ -47,16 +40,14 @@ def renewable_scrape():
         link_list.append(link)
         title_list.append(title)
 
-        ##These two lines
-    renewables.update({"renewable_links": link_list })
-    renewables.update({"renewable_titles": title_list })
+    #Update Mongo DB
+        renewables.update({"renewable_links": link_list })
+        renewables.update({"renewable_titles": title_list })
         
-    now = datetime.datetime.now()
-    print ("Current date and time : ")
-    last_refresh = now.strftime("%Y-%m-%d %H:%M:%S")
-        # renewables.update({"renewable_refresh": last_refresh })
-    renewables = {"links": link_list, "articles ": title_list, "last_scrape": last_refresh}
-
-    out_file = open("my_renewables.json", "w") 
-  
-    json.dump(renewables, out_file, indent = 6) 
+    #Get current date and time
+        now = datetime.datetime.now()
+        print ("Current date and time : ")
+        last_refresh = now.strftime("%Y-%m-%d %H:%M:%S")
+        renewables.update({"renewable_refresh": last_refresh })
+    browser.quit()
+    return renewables

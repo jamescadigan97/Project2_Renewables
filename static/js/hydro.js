@@ -154,7 +154,7 @@ var statesData = {"type":"FeatureCollection","features":[
   
   // method that we will use to update the control based on feature properties passed
   info.update = function(props) {
-      this._div.innerHTML = '<h4> 2019 Production Capacity</h4>' + (props ?
+      this._div.innerHTML = '<h4> 2019 Hydro Electric Production Capacity</h4>' + (props ?
           '<b>' + props.name + '</b><br />' + props.production + ' thousand megawatthours' :
           'Hover over a state');
   };

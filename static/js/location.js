@@ -62287,7 +62287,35 @@ var json = {
 ]
 };
 
+var myIcon = L.icon({
+  iconUrl: '../static/images/red.png',
+  iconSize: [20, 20],
+  // iconAnchor: [22, 94],
+  // popupAnchor: [-3, -76],
+  // shadowUrl: 'my-icon-shadow.png',
+  // shadowSize: [68, 95],
+  // shadowAnchor: [22, 94]
+});
 
+var myIcon1 = L.icon({
+  iconUrl: '../static/images/blue.png',
+  iconSize: [20, 20],
+  // iconAnchor: [22, 94],
+  // popupAnchor: [-3, -76],
+  // shadowUrl: 'my-icon-shadow.png',
+  // shadowSize: [68, 95],
+  // shadowAnchor: [22, 94]
+});
+
+var myIcon2 = L.icon({
+  iconUrl: '../static/images/green.png',
+  iconSize: [20, 20],
+  // iconAnchor: [22, 94],
+  // popupAnchor: [-3, -76],
+  // shadowUrl: 'my-icon-shadow.png',
+  // shadowSize: [68, 95],
+  // shadowAnchor: [22, 94]
+});
 // create groups to add the markers
 var solarGroup = L.featureGroup().addTo(map);
 var hydroGroup = L.featureGroup().addTo(map);
@@ -62298,15 +62326,15 @@ L.geoJSON(json,{
 	onEachFeature: function (feature, layer) {
   	// create a marker and add them to the correct group
   	if(feature.properties.primary_fuel === "Solar"){
-    	L.marker(layer.getLatLng())
+    	L.marker(layer.getLatLng(), {icon: myIcon})
           .bindPopup("<h2>" + feature.properties.name + "<h2> <hr> <h3>Primary Fuel " + feature.properties.primary_fuel + "</h3>")
           .addTo(solarGroup);
     }else if(feature.properties.primary_fuel === "Hydro"){
-    	L.marker(layer.getLatLng())
+    	L.marker(layer.getLatLng(), {icon: myIcon1})
           .bindPopup("<h2>" + feature.properties.name + "<h2> <hr> <h3>Primary Fuel " + feature.properties.primary_fuel + "</h3>")
           .addTo(hydroGroup);
     } else if(feature.properties.primary_fuel === "Wind"){
-    	L.marker(layer.getLatLng())
+    	L.marker(layer.getLatLng(), {icon: myIcon2})
           .bindPopup("<h2>" + feature.properties.name + "<h2> <hr> <h3>Primary Fuel " + feature.properties.primary_fuel + "</h3>")
           .addTo(windGroup);
     }
@@ -62320,3 +62348,5 @@ var overlayMaps = {
 	"Wind": windGroup
 }
 L.control.layers(null, overlayMaps).addTo(map);
+
+

@@ -12,16 +12,16 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-var url = "USA.geojson";
+var url = "api/heatmap";
 
 d3.json(url, function(response) {
-  console.log(response.features[1].geometry.coordinates);
+  console.log(response.data.features[1].geometry.coordinates);
   // console.log(response);
   
   var heatArray = [];
 
-  for (var i = 0; i < response.features.length; i++) {
-    var geometry1 = response.features[i];
+  for (var i = 0; i < response.data.features.length; i++) {
+    var geometry1 = response.data.features[i];
 
     if (geometry1) {
       heatArray.push([geometry1.geometry.coordinates[1], geometry1.geometry.coordinates[0]]);
