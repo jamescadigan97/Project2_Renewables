@@ -12,7 +12,8 @@ renewables = { }
 
 def renewable_scrape():
     #Launch chromedriver and visit page
-    executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+    # executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
+    executable_path = {'executable_path': 'chromedriver'}
     browser = Browser('chrome', **executable_path, headless=False)
     url = "https://www.renewableenergyworld.com"
     browser.visit(url)
