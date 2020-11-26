@@ -11,3 +11,18 @@ http://18.189.31.33:5000
 * MongoDB
 * Plotly Javascript
 * Mapbox/Leaflet JavaScript
+
+## Screenshot
+One of our cloropeth charts showing out the Hydro-electric energy production in 2019:
+![ScreenShot](/Screenshots/Hydro-electric.png)
+We have similar charts for wind and solar energy
+
+
+A map of all clean energy plants in the United States:
+![ScreenShot](/Screenshots/marker.png)
+On the site it is dynamic and you can filter what type of energy production plants you want to see.
+
+
+A sunburst map of the distribution of energy production in 2019 and a list of clean energy articles:
+![ScreenShot](/Screenshots/Sunburst.png)
+On the site the sunburst map is dynamic and the list can be updated.
